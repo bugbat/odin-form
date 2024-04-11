@@ -26,6 +26,15 @@ body {
   width: 35vw;
 }
 
+.title {
+  display: flex;
+}
+
+.img-sm {
+  width: 100px;
+  height: auto;
+}
+
 .right {
   display: flex;
   flex-direction: column;
@@ -35,7 +44,7 @@ body {
 }
 
 .right > * {
-  padding:35px;
+  padding: 20px 300px 20px 35px;
 }
 
 .right > .top {
@@ -43,8 +52,24 @@ body {
 
 .right > .middle {
   background-color: white;
-  box-shadow: 0px 5px 10px 0px rgb(180, 180, 180);}
+  box-shadow: 0px 5px 10px 0px rgb(180, 180, 180);
+}
 
 .right > .top {
 
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+input:focus {
+  box-shadow: 2px 2px 8px 0px rgb(180, 180, 180);
 }
