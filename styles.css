@@ -21,7 +21,7 @@ body {
 
 .left {
   background-image: url(./img/formbg.jpg);
-  background-size: 100%;
+  background-size: cover;
   height: 100vh;
   width: 35vw;
 }
@@ -35,6 +35,11 @@ body {
   font-size: 3rem;
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 12rem;
+  padding: 1rem;
+}
+
+.title h1 {
+  margin: 0;
 }
 
 .img-sm {
@@ -51,7 +56,7 @@ body {
 }
 
 .right > * {
-  padding: 20px 35px 20px 35px;
+  padding: 1rem 2rem;
 }
 
 .right > .top {
@@ -73,7 +78,7 @@ form {
 }
 
 .form-field {
-  flex: 1 0 44%;
+  flex: 0 0 35%;
   display: flex;
   flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -95,4 +100,9 @@ input:focus {
 
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.large {
+  font-size: 1.5rem;
+  margin: .5rem 0rem;
 }
