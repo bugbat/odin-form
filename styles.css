@@ -126,7 +126,7 @@ button {
   padding: 1rem 4rem;
   border: none;
   font-weight: bold;font-size: 1rem;
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 .invalid-text {
