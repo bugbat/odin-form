@@ -74,7 +74,7 @@ body {
 form {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 3rem;
 }
 
 .form-field {
@@ -87,10 +87,17 @@ form {
 
 .form-field input {
   font-size: 1rem;
+  width: 20rem;
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
 }
 
-input:focus {
+.form-field input:focus {
   box-shadow: 2px 2px 8px 0px rgb(180, 180, 180);
+}
+
+.form-field input:invalid {
+  border: 1px solid red;
 }
 
 @font-face {
@@ -105,4 +112,19 @@ p {
 .large {
   font-size: 1.5rem;
   margin: .5rem 0rem;
+}
+
+a {
+  color: #596D48;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  padding: 1rem 4rem;
+  border: none;
+  font-weight: bold;font-size: 1rem;
+  border-radius: 3px;
 }
